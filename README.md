@@ -61,7 +61,7 @@ python pong.py
 
 - `pong.py`: The entry point for the game. Sets up the screen and starts the game loop.
 - `paddle.py`: Contains the `Paddle` class for paddle movement.
-- `ball.py`: CContains the `Ball` class for ball movement and collision detection.
+- `ball.py`: Contains the `Ball` class for ball movement and collision detection.
 - `scoreboard.py`: Contains the `Scoreboard` class which manages the score display and game over message.
 
 
