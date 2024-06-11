@@ -1,0 +1,29 @@
+draw_center_line():
+
+    Draws a dashed line down the center of the game screen for visual separation between the two sides.
+
+screen_setup():
+
+    Sets up the screen with black background, title, and key bindings for controlling the paddles.
+
+display_game_over():
+
+    Displays a "Game Over" message and plays a system sound using winsound.
+
+countdown_timer():
+
+    Displays a countdown from 3 to 1 followed by "Go!" before the game starts.
+
+reset_game():
+
+    Resets the positions of the paddles and ball, resets the scores, and displays the countdown timer.
+
+Main Script:
+
+    Initializes the screen, paddles, ball, and scoreboard.
+
+    Prompts the user to input the winning score.
+
+    Enters the main game loop where it continuously updates the screen, moves the ball, checks for collisions, updates scores, and checks for the game-over condition.
+
+    Resets the game state and displays the game-over message when a player wins.

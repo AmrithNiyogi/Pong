@@ -1,0 +1,26 @@
+init(self):
+
+    Initializes the Scoreboard with white text color, hidden turtle icon, and initial scores of 0 for both players.
+    Calls the update_scoreboard() method to display the initial scoreboard.
+
+update_scoreboard(self):
+
+    Clears the previous scoreboard.
+    Displays the "Player 1" label and their score at the designated positions.
+    Displays the "Player 2" label and their score at the designated positions.
+    Uses larger font size for scores to ensure they stand out.
+
+l_point(self):
+
+    Increases the left player's score by 1.
+    Calls update_scoreboard() to refresh the scoreboard with the new score.
+
+r_point(self):
+
+    Increases the right player's score by 1.
+    Calls update_scoreboard() to refresh the scoreboard with the new score.
+
+reset_scores(self):
+
+    Resets both players' scores to 0.
+    Calls update_scoreboard() to refresh the scoreboard with the reset scores.

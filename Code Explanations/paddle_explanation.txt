@@ -1,0 +1,18 @@
+init(self, position):
+
+    Initializes the paddle with a square shape, white color, and fast animation speed.
+    Stretches the paddle shape to make it tall and thin (5 units tall, 1 unit wide).
+    Lifts the pen to avoid drawing lines when the paddle moves.
+    Positions the paddle at the specified coordinates using goto(position).
+
+up(self):
+
+    Moves the paddle up by 20 units.
+    Calculates the new y-coordinate by adding 20 units to the current y-coordinate.
+    Moves the paddle to the new y-coordinate while keeping the x-coordinate unchanged.
+
+down(self):
+
+    Moves the paddle down by 20 units.
+    Calculates the new y-coordinate by subtracting 20 units from the current y-coordinate.
+    Moves the paddle to the new y-coordinate while keeping the x-coordinate unchanged.
