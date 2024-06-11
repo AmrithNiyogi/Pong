@@ -1,0 +1,31 @@
+play_sound():
+
+    Plays a sound effect using the winsound module whenever the ball bounces.
+
+init():
+
+    Initializes the ball with a white color, circular shape, and lifts the pen.
+
+    Sets the initial movement direction (x_move and y_move) and speed (move_speed).
+
+move():
+
+    Calculates the new position of the ball by adding the movement increments to the current position.
+    Changes the ball's color based on its direction (blue for right, red for left).
+
+bounce_y():
+
+    Reverses the vertical direction of the ball to simulate a bounce off horizontal walls.
+    Plays a sound effect for the bounce.
+
+bounce_x():
+
+    Reverses the horizontal direction of the ball to simulate a bounce off paddles.
+    Increases the speed of the ball by reducing the movement delay.
+    Plays a sound effect for the bounce.
+
+reset_position():
+
+    Resets the ball to the center of the screen.
+    Resets the ball's speed to the initial value.
+    Makes the ball start moving in the opposite horizontal direction.
