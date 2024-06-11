@@ -30,7 +30,7 @@ The game allows two players to control paddles to bounce a ball back and forth, 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/AmrithNiyogi/snake-game.git
+    git clone https://github.com/AmrithNiyogi/pong.git
     ```
 
 2. Navigate to the project directory:
